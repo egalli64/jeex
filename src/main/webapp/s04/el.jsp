@@ -3,12 +3,12 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<title>JSP &amp; attributes</title>
+<title>Expression Language</title>
 <link rel="icon" href="data:;base64,=">
 <link rel="stylesheet" type="text/css" href="/jeep/css/simple.css">
 </head>
 <body>
-    <h1>Hello!</h1>
+    <h1>Expression Language</h1>
     <nav>
         Back <a href="/jeep/index.html">home</a>
     </nav>
