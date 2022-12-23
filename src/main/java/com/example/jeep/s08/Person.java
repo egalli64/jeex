@@ -1,5 +1,13 @@
+/*
+ * Introduction to Jakarta Enterprise Edition - JSP
+ * 
+ * https://github.com/egalli64/jeep
+ */
 package com.example.jeep.s08;
 
+/**
+ * A simple JavaBean
+ */
 public class Person {
     private String firstName;
     private String lastName;

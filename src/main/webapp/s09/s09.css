@@ -4,9 +4,9 @@
  */
 
 body {
-    background-color: #fafaee;
+	background-color: #008040;
 }
 
-h1 {
-	text-align: center;
+#warn {
+	background-color: #ffff80;
 }

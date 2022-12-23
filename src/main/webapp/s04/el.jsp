@@ -1,3 +1,7 @@
+<%-- 
+    Introduction to Jakarta Enterprise Edition - JSP
+    https://github.com/egalli64/jeep
+ --%>
 <%@ page language="java" contentType="text/html; charset=utf-8" pageEncoding="utf-8"%>
 <!DOCTYPE html>
 <html lang="en">
@@ -5,12 +9,12 @@
 <meta charset="utf-8">
 <title>Expression Language</title>
 <link rel="icon" href="data:;base64,=">
-<link rel="stylesheet" type="text/css" href="/jeep/css/simple.css">
+<link rel="stylesheet" href="/jeep/css/simple.css">
 </head>
 <body>
     <h1>Expression Language</h1>
     <nav>
-        Back <a href="/jeep/index.html">home</a>
+        <a href="/jeep/index.html">Home</a>
     </nav>
 
     <h2>Accessing a JavaBean</h2>

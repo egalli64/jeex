@@ -1,3 +1,7 @@
+<%-- 
+    Introduction to Jakarta Enterprise Edition - JSP
+    https://github.com/egalli64/jeep
+ --%>
 <%@ page language="java" contentType="text/html; charset=utf-8" pageEncoding="utf-8"%>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
 <!DOCTYPE html>
@@ -6,10 +10,14 @@
 <meta charset="utf-8">
 <title>JSTL conditions</title>
 <link rel="icon" href="data:;base64,=">
-<link rel="stylesheet" type="text/css" href="/jeep/css/simple.css">
+<link rel="stylesheet" href="/jeep/css/simple.css">
 </head>
 <body>
     <h1>Conditional code based on parameters x and y</h1>
+
+    <nav>
+        <a href="/jeep/index.html">Home</a>
+    </nav>
 
     <h2>Core if</h2>
     <c:if test="${not empty param.x}">
@@ -31,8 +39,5 @@
             <p>Both x and y are empty / not passed parameter!</p>
         </c:otherwise>
     </c:choose>
-    <nav>
-        Back <a href="/jeep/index.html">home</a>
-    </nav>
 </body>
 </html>

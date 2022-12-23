@@ -1,22 +1,28 @@
+<!-- 
+    Introduction to Jakarta Enterprise Edition - JSP
+    https://github.com/egalli64/jeep
+ -->
 <!DOCTYPE html>
 <html>
 <head>
 <meta charset="UTF-8">
 <title>Input each color you want</title>
 <link rel="icon" href="data:;base64,=">
-<link rel="stylesheet" type="text/css" href="/jeep/css/simple.css">
+<link rel="stylesheet" href="/jeep/css/simple.css">
 </head>
 <body>
     <h1>Input each color you want</h1>
+
+    <nav>
+        <a href="/jeep/index.html">Home</a>
+    </nav>
+
     <form action="forEachColor.jsp">
         <label>Red <input type="checkbox" name="colors" value="red" checked></label>
         <label>Green <input type="checkbox" name="colors" value="green" checked></label>
         <label>Blue <input type="checkbox" name="colors" value="blue"></label>
-        
+
         <button>Go!</button>
     </form>
-    <nav>
-        Back <a href="/jeep/index.html">home</a>
-    </nav>
 </body>
 </html>

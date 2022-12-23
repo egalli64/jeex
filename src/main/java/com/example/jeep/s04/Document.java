@@ -1,16 +1,26 @@
+/*
+ * Introduction to Jakarta Enterprise Edition - JSP
+ * 
+ * https://github.com/egalli64/jeep
+ */
 package com.example.jeep.s04;
 
+/**
+ * A JavaBean with another JavaBean within
+ * 
+ * @see User
+ */
 public class Document {
     private String title;
 
     private User user;
 
+    public Document() {
+    }
+
     public Document(String title, User user) {
         this.title = title;
         this.user = user;
-    }
-
-    public Document() {
     }
 
     public String getTitle() {

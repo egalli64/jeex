@@ -1,3 +1,7 @@
+<%-- 
+    Introduction to Jakarta Enterprise Edition - JSP
+    https://github.com/egalli64/jeep
+ --%>
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html lang="en">
@@ -5,12 +9,12 @@
 <head>
 <meta charset="UTF-8">
 <link rel="icon" href="data:;base64,=">
-<link rel="stylesheet" type="text/css" href="mood.css">
+<link rel="stylesheet" href="mood.css">
 <title>Hello</title>
 </head>
 
 <body class="active">
-    Hello!
+    <h1>Hello!</h1>
 
     <!--
         TODO: Use the param to

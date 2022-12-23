@@ -1,5 +1,13 @@
+/*
+ * Introduction to Jakarta Enterprise Edition - JSP
+ * 
+ * https://github.com/egalli64/jeep
+ */
 package com.example.jeep.s04;
 
+/**
+ * A very simple JavaBean
+ */
 public class User {
     private String name;
     private int id;
