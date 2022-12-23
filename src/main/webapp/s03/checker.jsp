@@ -17,7 +17,7 @@
     <h1>Hello!</h1>
     <%@include file="backHome.html"%>
     <%-- JSP-EL to access the set attribute in the request --%>
-    <p id="result">The user name contains these letters: ${set}</p>
+    <p>The user name contains these letters: ${set}</p>
 </body>
 
 </html>
