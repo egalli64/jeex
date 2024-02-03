@@ -26,6 +26,9 @@
     <c:if test="${not empty param.y}">
         <p>Parameter y is ${param.y}</p>
     </c:if>
+    <c:if test="${empty param.x and empty param.y}">
+        <p>Both x and y are missing</p>
+    </c:if>
 
     <h2>Core choose-when</h2>
     <c:choose>
