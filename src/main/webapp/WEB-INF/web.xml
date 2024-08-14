@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- Introduction to Jakarta Enterprise Edition - JSP https://github.com/egalli64/jeep -->
+<!-- Going deeper into Jakarta Enterprise Edition https://github.com/egalli64/jeex -->
 <web-app xmlns="https://jakarta.ee/xml/ns/jakartaee"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_6_0.xsd"
     version="6.0">
 
+    <!-- see m1 s2 -->
     <welcome-file-list>
         <welcome-file>index.html</welcome-file>
     </welcome-file-list>
 
-    <!-- slide 9 -->
     <context-param>
         <param-name>admin</param-name>
         <param-value>Tom</param-value>
@@ -17,11 +17,11 @@
 
     <error-page>
         <error-code>404</error-code>
-        <location>/s09/404.jsp</location>
+        <location>/m1/s2/404.jsp</location>
     </error-page>
     <error-page>
         <error-code>500</error-code>
-        <location>/s09/500.jsp</location>
+        <location>/m1/s2/500.jsp</location>
     </error-page>
 
     <resource-ref>
@@ -29,5 +29,4 @@
         <res-type>javax.sql.DataSource</res-type>
         <res-auth>Container</res-auth>
     </resource-ref>
-
 </web-app>
