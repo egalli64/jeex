@@ -1,6 +1,6 @@
-<%-- 
-    Introduction to Jakarta Enterprise Edition - JSP
-    https://github.com/egalli64/jeep
+<%--
+    Going deeper into Jakarta Enterprise Edition
+    https://github.com/egalli64/jeex
  --%>
 <%@ page language="java" contentType="text/html; charset=utf-8" pageEncoding="utf-8"%>
 <!DOCTYPE html>
@@ -8,15 +8,12 @@
 <head>
 <meta charset="utf-8">
 <title>Error page</title>
-<link rel="icon" href="data:;base64,=">
-<link rel="stylesheet" href="/jeep/css/simple.css">
-<link rel="stylesheet" href="s09.css">
+<%@include file="/include/link.html"%>
+<link rel="stylesheet" href="500.css">
 </head>
 <body>
     <h1>Internal error</h1>
-    <nav>
-        <a href="/jeep/index.html">Home</a>
-    </nav>
+    <%@include file="/include/navHome.html"%>
 
     <div id="warn">
         <p>Exception: ${pageContext.exception["class"]}</p>

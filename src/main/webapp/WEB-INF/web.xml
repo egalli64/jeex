@@ -12,7 +12,12 @@
 
     <context-param>
         <param-name>admin</param-name>
-        <param-value>Tom</param-value>
+        <param-value>Tom Darmstadtium</param-value>
+    </context-param>
+
+    <context-param>
+        <param-name>birthday</param-name>
+        <param-value>1994-11-09</param-value>
     </context-param>
 
     <error-page>
@@ -23,6 +28,11 @@
         <error-code>500</error-code>
         <location>/m1/s2/500.jsp</location>
     </error-page>
+
+    <session-config>
+        <!-- specified in minutes -->
+        <session-timeout>10</session-timeout>
+    </session-config>
 
     <resource-ref>
         <res-ref-name>jdbc/hron</res-ref-name>
