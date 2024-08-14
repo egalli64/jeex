@@ -1,6 +1,6 @@
 <%-- 
-    Introduction to Jakarta Enterprise Edition - JSP
-    https://github.com/egalli64/jeep
+    Going deeper into Jakarta Enterprise Edition
+    https://github.com/egalli64/jeex
  --%>
 <%@ page language="java" contentType="text/html; charset=utf-8" pageEncoding="utf-8"%>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
@@ -15,14 +15,11 @@
     WHERE department_id = 6
 </sql:query>
 <title>Coders</title>
-<link rel="icon" href="data:;base64,=">
-<link rel="stylesheet" href="/jeep/css/simple.css">
+<%@include file="/include/link.html"%>
 </head>
 <body>
     <h1>Coders by JSTL (don't do this in production!)</h1>
-    <nav>
-        <a href="/jeep/index.html">Home</a>
-    </nav>
+    <%@include file="/include/navHome.html"%>
 
     <table>
         <tr>
