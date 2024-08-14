@@ -1,5 +1,5 @@
 # jeex
-## Deeper concepts on Jakarta Enterprise Edition
+## Going deeper into Jakarta Enterprise Edition
 
 ### Used technologies
 - Apache Tomcat 10.1
