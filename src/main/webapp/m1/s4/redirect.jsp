@@ -1,6 +1,6 @@
 <%-- 
-    Introduction to Jakarta Enterprise Edition - JSP
-    https://github.com/egalli64/jeep
+    Going deeper into Jakarta Enterprise Edition
+    https://github.com/egalli64/jeex
  --%>
 <%@ page language="java" contentType="text/html; charset=utf-8" pageEncoding="utf-8"%>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
