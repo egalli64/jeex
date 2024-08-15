@@ -16,7 +16,7 @@
 <body>
     <header>
         <h1>Coders</h1>
-        <%@include file="/include/navHome.html"%>
+        <%@include file="/m2/include/navHome.html"%>
     </header>
 
     <table>
